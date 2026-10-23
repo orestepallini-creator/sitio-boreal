@@ -1,0 +1,762 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Boreal | Marketing Estratégico · Estratégia, design e conteúdo para empreendedoras</title>
+<meta name="description" content="Boreal | Marketing Estratégico: estratégia, design e conteúdo para empreendedoras, com excelência e atenção aos detalhes. Clientes no Brasil e no Chile. Fale pelo WhatsApp.">
+<meta name="theme-color" content="#4E8A73">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="alternate" hreflang="pt-BR" href="./">
+<link rel="alternate" hreflang="es" href="./?lang=es">
+<!-- TODO: trocar pela URL definitiva quando o site for publicado -->
+<link rel="canonical" href="https://www.borealmkt.com.br/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Boreal | Marketing Estratégico">
+<meta property="og:title" content="Boreal | Marketing Estratégico">
+<meta property="og:description" content="Estratégia, design e conteúdo para empreendedoras. Clientes no Brasil e no Chile. Vamos levar sua marca além?">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:locale:alternate" content="es_CL">
+<meta property="og:image" content="assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Selo da Boreal Marketing Estratégico sobre fundo creme">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Boreal | Marketing Estratégico",
+  "description": "Estratégia, design e conteúdo para empreendedoras. Clientes no Brasil e no Chile.",
+  "email": "gestao.agenciaboreal@gmail.com",
+  "telephone": "+55 21 98869-3201",
+  "areaServed": ["BR", "CL"],
+  "founder": {"@type": "Person", "name": "Letycia Araújo"},
+  "openingHours": "10:00-19:00",
+  "sameAs": [
+    "https://www.instagram.com/agencia.borealmkt/",
+    "https://www.threads.net/@agencia.borealmkt",
+    "https://www.facebook.com/share/1Horv9pQxH/"
+  ]
+}
+</script>
+
+<style>
+:root{
+  --cream:#F4F1E8;
+  --cream-2:#EDE8DA;
+  --paper:#FBF9F3;
+  --green:#4E8A73;
+  --green-deep:#3C6E5B;
+  --green-ink:#2F4F43;
+  --sage:#A9C3A8;
+  --mint:#C9D9C4;
+  --ink:#2E3A34;
+  --muted:#5F6E66;
+  --line:rgba(78,138,115,.22);
+  --serif:'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --sans:'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+  --radius:22px;
+  --wrap:1120px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:var(--sans);font-weight:400;font-size:16px;line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img,svg{display:block;max-width:100%}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--green);outline-offset:3px;border-radius:6px}
+.wrap{width:100%;max-width:var(--wrap);margin:0 auto;padding:0 20px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--green);color:#fff;padding:8px 14px;border-radius:8px;z-index:100}
+.skip:focus{left:12px}
+
+/* type */
+h1,h2,h3{font-family:var(--serif);font-weight:400;color:var(--green-ink);line-height:1.08;margin:0}
+h1{font-size:clamp(2.6rem,9vw,5.2rem);letter-spacing:-.01em}
+h2{font-size:clamp(2.1rem,6vw,3.4rem)}
+h3{font-size:1.65rem;font-weight:500}
+p{margin:0 0 1em}
+em,.italic{font-style:italic}
+.eyebrow{display:inline-flex;align-items:center;gap:12px;font-size:.72rem;letter-spacing:.28em;text-transform:uppercase;color:var(--green);font-weight:500;margin-bottom:22px}
+.eyebrow::before{content:"";width:34px;height:1px;background:var(--green);opacity:.6}
+.lead{font-size:1.06rem;color:var(--muted);max-width:36em}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 26px;border-radius:999px;font-family:var(--sans);font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;font-weight:500;text-decoration:none;transition:transform .25s ease, background .25s ease, color .25s ease, border-color .25s ease;cursor:pointer;border:1px solid transparent;min-height:48px}
+.btn svg{width:18px;height:18px;flex:none}
+.btn-primary{background:var(--green);color:#fff}
+.btn-primary:hover{background:var(--green-deep);transform:translateY(-2px)}
+.btn-ghost{border-color:var(--green);color:var(--green)}
+.btn-ghost:hover{background:var(--green);color:#fff}
+
+/* header */
+.site-header{position:sticky;top:0;z-index:40;background:rgba(244,241,232,.88);backdrop-filter:saturate(140%) blur(10px);-webkit-backdrop-filter:saturate(140%) blur(10px);border-bottom:1px solid transparent;transition:border-color .3s}
+.site-header.scrolled{border-bottom-color:var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px;gap:16px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand svg{width:46px;height:46px}
+.brand-name{font-family:var(--serif);font-size:1.5rem;letter-spacing:.14em;color:var(--green-ink);line-height:1}
+.brand-name small{display:block;font-family:var(--sans);font-size:.52rem;letter-spacing:.32em;color:var(--green);margin-top:5px}
+.nav-links{display:none;gap:30px;list-style:none;margin:0;padding:0}
+.nav-links a{text-decoration:none;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);transition:color .2s}
+.nav-links a:hover{color:var(--green)}
+.nav-right{display:flex;align-items:center;gap:12px}
+.lang{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:3px;background:var(--paper)}
+.lang button{border:0;background:none;font-family:var(--sans);font-size:.7rem;letter-spacing:.14em;font-weight:500;color:var(--muted);padding:7px 11px;border-radius:999px;cursor:pointer;min-width:40px;min-height:32px}
+.lang button[aria-pressed="true"]{background:var(--green);color:#fff}
+.nav-cta{display:none}
+
+/* hero */
+.hero{position:relative;padding:56px 0 72px;overflow:hidden}
+.hero-aurora{position:absolute;inset:0;pointer-events:none;opacity:.55}
+.hero-grid{position:relative;display:grid;gap:44px;align-items:center}
+.hero-seal{width:min(74vw,330px);margin:0 auto;filter:drop-shadow(0 18px 40px rgba(47,79,67,.12))}
+.hero-copy{text-align:center}
+.hero-copy .lead{margin:22px auto 0}
+.hero-copy h1 em{color:var(--green);font-weight:300}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:32px}
+.highlights{display:flex;gap:20px;justify-content:center;margin-top:40px;list-style:none;padding:0}
+.highlights a{display:flex;flex-direction:column;align-items:center;gap:8px;text-decoration:none;font-size:.72rem;letter-spacing:.06em;color:var(--muted)}
+.hl-ring{width:66px;height:66px;border-radius:50%;padding:3px;border:1px solid var(--sage);transition:transform .25s}
+.highlights a:hover .hl-ring{transform:translateY(-3px)}
+.hl-ring svg{width:100%;height:100%;border-radius:50%}
+
+/* sections */
+section{scroll-margin-top:80px}
+.section{padding:88px 0}
+.section-head{max-width:640px;margin-bottom:48px}
+.section-head.center{margin-left:auto;margin-right:auto;text-align:center}
+.section-head.center .eyebrow{justify-content:center}
+.section-head .lead{margin-top:18px}
+.section-head.center .lead{margin-left:auto;margin-right:auto}
+
+/* sobre */
+.sobre{background:var(--paper)}
+.sobre-grid{display:grid;gap:48px;align-items:center}
+.portrait{position:relative;max-width:420px;margin:0 auto;width:100%}
+.portrait-frame{aspect-ratio:4/5;border-radius:220px 220px 26px 26px;overflow:hidden;background:var(--mint);position:relative}
+.portrait-frame svg{width:100%;height:100%}
+.portrait-tag{position:absolute;left:50%;bottom:-22px;transform:translateX(-50%);background:var(--cream);border:1px solid var(--line);border-radius:999px;padding:10px 22px;white-space:nowrap;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--green)}
+.sobre-copy p{color:var(--muted)}
+.sobre-copy h2{margin-bottom:26px}
+.signature{display:flex;align-items:center;gap:14px;margin-top:30px;padding-top:24px;border-top:1px solid var(--line)}
+.signature .name{font-family:var(--serif);font-size:1.6rem;font-style:italic;color:var(--green-ink);line-height:1.1}
+.signature a{font-size:.8rem;color:var(--green);text-decoration:none;letter-spacing:.04em}
+.signature a:hover{text-decoration:underline}
+.flags{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+.chip{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:999px;padding:7px 16px;font-size:.78rem;color:var(--green-ink);background:var(--cream)}
+.chip i{width:6px;height:6px;border-radius:50%;background:var(--green);display:block}
+
+/* serviços */
+.services{display:grid;gap:18px}
+.service{position:relative;background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:34px 28px 30px;transition:transform .3s ease, box-shadow .3s ease, border-color .3s}
+.service:hover{transform:translateY(-4px);box-shadow:0 20px 40px -24px rgba(47,79,67,.35);border-color:var(--sage)}
+.service .num{font-family:var(--serif);font-size:1rem;color:var(--sage);letter-spacing:.2em}
+.service .icon{width:52px;height:52px;border-radius:50%;background:var(--cream);border:1px solid var(--line);display:grid;place-items:center;margin:18px 0 20px}
+.service .icon svg{width:24px;height:24px;stroke:var(--green);fill:none;stroke-width:1.3}
+.service h3{margin-bottom:12px}
+.service p{color:var(--muted);font-size:.95rem;margin:0}
+.services-note{text-align:center;margin-top:36px;color:var(--muted);font-family:var(--serif);font-size:1.3rem;font-style:italic}
+
+/* manifesto band */
+.band{position:relative;background:var(--green);color:var(--cream);overflow:hidden}
+.band-pattern{position:absolute;inset:0;opacity:.13}
+.band .wrap{position:relative;padding-top:84px;padding-bottom:84px;text-align:center}
+.band blockquote{margin:0 auto;max-width:820px;font-family:var(--serif);font-weight:300;font-size:clamp(1.9rem,5.4vw,3.2rem);line-height:1.18}
+.band blockquote em{color:var(--mint)}
+.band .eyebrow{color:var(--mint);justify-content:center}
+.band .eyebrow::before{background:var(--mint)}
+
+/* diferenciais */
+.pillars{display:grid;gap:0;border-top:1px solid var(--line)}
+.pillar{display:grid;grid-template-columns:auto 1fr;gap:6px 22px;padding:34px 0;border-bottom:1px solid var(--line)}
+.pillar .roman{font-family:var(--serif);font-size:2.6rem;line-height:1;color:var(--sage);font-weight:300;grid-row:span 2;min-width:54px}
+.pillar h3{font-size:1.8rem}
+.pillar p{color:var(--muted);margin:0;max-width:40em}
+
+/* comece aqui */
+.comece{background:var(--paper)}
+.steps{display:grid;gap:16px;counter-reset:s;list-style:none;padding:0;margin:0}
+.step{position:relative;padding:30px 26px 28px 26px;border-radius:var(--radius);background:var(--cream);border:1px solid var(--line)}
+.step::before{counter-increment:s;content:"0" counter(s);font-family:var(--serif);font-size:2.4rem;color:var(--green);font-weight:300;display:block;line-height:1;margin-bottom:14px}
+.step h3{font-size:1.45rem;margin-bottom:8px}
+.step p{margin:0;color:var(--muted);font-size:.95rem}
+.comece-cta{text-align:center;margin-top:40px}
+
+/* contato */
+.contato-grid{display:grid;gap:40px}
+.contact-list{display:grid;gap:14px;list-style:none;padding:0;margin:0}
+.contact-item{display:flex;align-items:center;gap:18px;padding:20px 22px;border:1px solid var(--line);border-radius:18px;background:var(--paper);text-decoration:none;transition:border-color .25s, transform .25s}
+a.contact-item:hover{border-color:var(--green);transform:translateX(3px)}
+.contact-item .ci{width:46px;height:46px;flex:none;border-radius:50%;background:var(--cream);display:grid;place-items:center;border:1px solid var(--line)}
+.contact-item .ci svg{width:20px;height:20px}
+.contact-item small{display:block;font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--green)}
+.contact-item span{font-size:1rem;color:var(--ink);word-break:break-word}
+.contato-card{background:var(--green);color:var(--cream);border-radius:28px;padding:40px 30px;position:relative;overflow:hidden}
+.contato-card h2{color:var(--cream)}
+.contato-card p{color:rgba(244,241,232,.85);margin-top:18px}
+.contato-card .btn{background:var(--cream);color:var(--green-ink);margin-top:12px}
+.contato-card .btn:hover{background:#fff;transform:translateY(-2px)}
+.contato-card .card-pattern{position:absolute;right:-60px;bottom:-60px;width:260px;height:260px;opacity:.16}
+.socials{display:flex;gap:10px;margin-top:26px;flex-wrap:wrap;position:relative}
+.socials a{font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;border:1px solid rgba(244,241,232,.4);border-radius:999px;padding:8px 14px;color:var(--cream);transition:background .2s}
+.socials a:hover{background:rgba(244,241,232,.14)}
+
+/* footer */
+footer{padding:56px 0 110px;text-align:center;border-top:1px solid var(--line)}
+footer svg.seal-sm{width:84px;height:84px;margin:0 auto 18px}
+footer p{color:var(--muted);font-size:.86rem;margin:0 0 6px}
+footer .small{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;margin-top:18px;color:var(--sage)}
+
+/* floating whatsapp */
+.wa-float{position:fixed;right:18px;bottom:18px;z-index:60;width:60px;height:60px;border-radius:50%;background:var(--green);display:grid;place-items:center;box-shadow:0 14px 30px -10px rgba(47,79,67,.55);transition:transform .25s, background .25s}
+.wa-float:hover{transform:scale(1.06);background:var(--green-deep)}
+.wa-float svg{width:28px;height:28px;fill:#fff}
+.wa-float::after{content:"";position:absolute;inset:-6px;border-radius:50%;border:1px solid var(--sage);opacity:.7;animation:ring 2.8s ease-out infinite}
+@keyframes ring{0%{transform:scale(.9);opacity:.7}100%{transform:scale(1.25);opacity:0}}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .8s ease, transform .8s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}html{scroll-behavior:auto}}
+
+/* fotos reais */
+.hero-photo{position:relative;max-width:400px;margin:0 auto;width:100%}
+.hero-photo .frame{aspect-ratio:3/4;border-radius:240px 240px 28px 28px;overflow:hidden;background:var(--mint);box-shadow:0 30px 60px -30px rgba(47,79,67,.45)}
+.hero-photo img,.portrait-frame img{width:100%;height:100%;object-fit:cover}
+.hero-photo .badge{position:absolute;left:-18px;bottom:-18px;width:118px;height:118px;filter:drop-shadow(0 12px 24px rgba(47,79,67,.22))}
+
+/* bastidores */
+.bastidores{background:var(--paper)}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.gallery figure{margin:0;position:relative;border-radius:18px;overflow:hidden;background:var(--mint);aspect-ratio:4/5}
+.gallery img{width:100%;height:100%;object-fit:cover;transition:transform .8s ease}
+.gallery figure:hover img{transform:scale(1.04)}
+.gallery figcaption{position:absolute;left:10px;right:10px;bottom:10px;background:rgba(244,241,232,.92);border-radius:12px;padding:9px 12px;font-size:.74rem;line-height:1.4;color:var(--green-ink)}
+.gallery-cta{text-align:center;margin-top:36px}
+
+/* resultados */
+.results-grid{display:grid;gap:28px;align-items:center}
+.case-img{border-radius:24px;overflow:hidden;border:1px solid var(--line);box-shadow:0 24px 48px -30px rgba(47,79,67,.4)}
+.case-img img{width:100%}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:26px 0}
+.stat{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:18px 10px;text-align:center}
+.stat b{display:block;font-family:var(--serif);font-weight:400;font-size:clamp(1.8rem,6vw,2.6rem);color:var(--green);line-height:1}
+.stat span{display:block;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:8px;line-height:1.35}
+.quote{margin:44px 0 0;padding:34px 30px;background:var(--green);color:var(--cream);border-radius:26px;position:relative}
+.quote p{font-family:var(--serif);font-size:clamp(1.35rem,3.6vw,1.75rem);line-height:1.3;font-style:italic;margin:0 0 16px}
+.quote footer{padding:0;border:0;text-align:left;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--mint)}
+.quote::before{content:"“";position:absolute;right:24px;top:-6px;font-family:var(--serif);font-size:7rem;line-height:1;color:var(--sage);opacity:.5}
+
+.contato-card .eyebrow::before{background:var(--mint)}
+@media (max-width:979px){
+  .hero-copy .eyebrow{justify-content:center;text-align:center}
+  .hero-copy .eyebrow::before{display:none}
+}
+@media (max-width:480px){
+  .btn{letter-spacing:.08em;font-size:.76rem;padding:15px 20px}
+  .brand-name{font-size:1.3rem}
+  .brand-name small{letter-spacing:.24em}
+}
+/* >= 720 */
+@media (min-width:720px){
+  .wrap{padding:0 32px}
+  .services{grid-template-columns:1fr 1fr}
+  .steps{grid-template-columns:repeat(3,1fr)}
+  .contato-card{padding:52px 44px}
+  .gallery{grid-template-columns:repeat(3,1fr);gap:18px}
+  .quote{padding:44px 48px}
+}
+/* >= 980 */
+@media (min-width:980px){
+  .nav-links{display:flex}
+  .nav-cta{display:inline-flex;padding:11px 20px;min-height:40px;font-size:.72rem}
+  .hero{padding:72px 0 104px}
+  .hero-grid{grid-template-columns:1.2fr .8fr;gap:48px}
+  .hero-copy{text-align:left}
+  .hero-copy .lead{margin-left:0}
+  .hero-ctas,.highlights{justify-content:flex-start}
+  .hero-seal{width:400px}
+  .hero-photo{max-width:420px}
+  .hero-photo .badge{width:140px;height:140px;left:-48px}
+  .results-grid{grid-template-columns:.85fr 1.15fr;gap:72px}
+  .section{padding:120px 0}
+  .sobre-grid{grid-template-columns:.9fr 1.1fr;gap:88px}
+  .services{grid-template-columns:repeat(4,1fr)}
+  .pillars-wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:80px;align-items:start}
+  .pillars-wrap .section-head{position:sticky;top:120px}
+  .contato-grid{grid-template-columns:1fr 1fr;gap:56px;align-items:stretch}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#conteudo" data-i18n="skip">Pular para o conteúdo</a>
+
+<!-- Símbolos reutilizáveis -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="g-aurora" gradientUnits="userSpaceOnUse" x1="0" y1="105" x2="0" y2="266">
+      <stop offset="0" stop-color="#4E8A73"/>
+      <stop offset=".7" stop-color="#A9C3A8"/>
+      <stop offset="1" stop-color="#C9D9C4" stop-opacity=".2"/>
+    </linearGradient>
+    <path id="arcTop" d="M 52,200 A 148,148 0 0,1 348,200"/>
+    <path id="arcBottom" d="M 36,200 A 164,164 0 0,0 364,200"/>
+    <!-- Monograma "B" (inspirado nas capas dos destaques do Instagram) -->
+    <pattern id="pat-b-light" width="56" height="56" patternUnits="userSpaceOnUse" patternTransform="rotate(-12)">
+      <rect width="56" height="56" fill="#F4F1E8"/>
+      <text x="6" y="26" font-family="'Cormorant Garamond', Georgia, serif" font-size="24" fill="#4E8A73">B</text>
+      <text x="34" y="52" font-family="'Cormorant Garamond', Georgia, serif" font-size="24" fill="#4E8A73" transform="rotate(8 40 46)">B</text>
+    </pattern>
+    <pattern id="pat-b-sage" width="56" height="56" patternUnits="userSpaceOnUse" patternTransform="rotate(-12)">
+      <rect width="56" height="56" fill="#C9D9C4"/>
+      <text x="6" y="26" font-family="'Cormorant Garamond', Georgia, serif" font-size="24" fill="#2F4F43">B</text>
+      <text x="34" y="52" font-family="'Cormorant Garamond', Georgia, serif" font-size="24" fill="#2F4F43" transform="rotate(8 40 46)">B</text>
+    </pattern>
+    <pattern id="pat-b-mid" width="56" height="56" patternUnits="userSpaceOnUse" patternTransform="rotate(-12)">
+      <rect width="56" height="56" fill="#A9C3A8"/>
+      <text x="6" y="26" font-family="'Cormorant Garamond', Georgia, serif" font-size="24" fill="#F4F1E8">B</text>
+      <text x="34" y="52" font-family="'Cormorant Garamond', Georgia, serif" font-size="24" fill="#2F4F43" transform="rotate(8 40 46)">B</text>
+    </pattern>
+    <pattern id="pat-b-deep" width="56" height="56" patternUnits="userSpaceOnUse" patternTransform="rotate(-12)">
+      <rect width="56" height="56" fill="#4E8A73"/>
+      <text x="6" y="26" font-family="'Cormorant Garamond', Georgia, serif" font-size="24" fill="#F4F1E8">B</text>
+      <text x="34" y="52" font-family="'Cormorant Garamond', Georgia, serif" font-size="24" fill="#C9D9C4" transform="rotate(8 40 46)">B</text>
+    </pattern>
+    <pattern id="pat-b-line" width="90" height="90" patternUnits="userSpaceOnUse" patternTransform="rotate(-12)">
+      <text x="8" y="40" font-family="'Cormorant Garamond', Georgia, serif" font-size="40" fill="#F4F1E8">B</text>
+      <text x="54" y="84" font-family="'Cormorant Garamond', Georgia, serif" font-size="40" fill="#F4F1E8">B</text>
+    </pattern>
+    <symbol id="seal" viewBox="0 0 400 400">
+      <circle cx="200" cy="200" r="196" fill="#F4F1E8"/>
+      <circle cx="200" cy="200" r="186" fill="none" stroke="#A9C3A8" stroke-width="1"/>
+      <g stroke="url(#g-aurora)" stroke-linecap="round">
+        <line x1="128.0" y1="212.9" x2="128.0" y2="262" stroke-width="1.6"/><line x1="133.1" y1="226.3" x2="133.1" y2="262" stroke-width="1.1"/><line x1="138.3" y1="212.6" x2="138.3" y2="262" stroke-width="1.6"/><line x1="143.4" y1="195.7" x2="143.4" y2="262" stroke-width="1.1"/><line x1="148.6" y1="197.6" x2="148.6" y2="262" stroke-width="1.6"/><line x1="153.7" y1="196.5" x2="153.7" y2="262" stroke-width="1.1"/><line x1="158.9" y1="168.5" x2="158.9" y2="262" stroke-width="1.6"/><line x1="164.0" y1="167.9" x2="164.0" y2="262" stroke-width="1.1"/><line x1="169.1" y1="157.2" x2="169.1" y2="262" stroke-width="1.6"/><line x1="174.3" y1="144.9" x2="174.3" y2="262" stroke-width="1.1"/><line x1="179.4" y1="137.4" x2="179.4" y2="262" stroke-width="1.6"/><line x1="184.6" y1="129.3" x2="184.6" y2="262" stroke-width="1.1"/><line x1="189.7" y1="113.2" x2="189.7" y2="262" stroke-width="1.6"/><line x1="194.9" y1="127.3" x2="194.9" y2="262" stroke-width="1.1"/><line x1="200.0" y1="118.0" x2="200.0" y2="262" stroke-width="1.6"/><line x1="205.1" y1="109.3" x2="205.1" y2="262" stroke-width="1.1"/><line x1="210.3" y1="123.2" x2="210.3" y2="262" stroke-width="1.6"/><line x1="215.4" y1="137.3" x2="215.4" y2="262" stroke-width="1.1"/><line x1="220.6" y1="127.4" x2="220.6" y2="262" stroke-width="1.6"/><line x1="225.7" y1="146.9" x2="225.7" y2="262" stroke-width="1.1"/><line x1="230.9" y1="157.2" x2="230.9" y2="262" stroke-width="1.6"/><line x1="236.0" y1="165.9" x2="236.0" y2="262" stroke-width="1.1"/><line x1="241.1" y1="178.5" x2="241.1" y2="262" stroke-width="1.6"/><line x1="246.3" y1="188.5" x2="246.3" y2="262" stroke-width="1.1"/><line x1="251.4" y1="187.6" x2="251.4" y2="262" stroke-width="1.6"/><line x1="256.6" y1="213.7" x2="256.6" y2="262" stroke-width="1.1"/><line x1="261.7" y1="212.6" x2="261.7" y2="262" stroke-width="1.6"/><line x1="266.9" y1="208.3" x2="266.9" y2="262" stroke-width="1.1"/><line x1="272.0" y1="222.9" x2="272.0" y2="262" stroke-width="1.6"/>
+      </g>
+      <text x="200" y="270" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-size="54" font-weight="400" letter-spacing="3" fill="#4E8A73" stroke="#F4F1E8" stroke-width="7" paint-order="stroke" stroke-linejoin="round">BOREAL</text>
+      <g font-family="Montserrat, Arial, sans-serif" font-size="15" letter-spacing="7" fill="#7FA893">
+        <text><textPath href="#arcTop" startOffset="50%" text-anchor="middle">MARKETING</textPath></text>
+        <text><textPath href="#arcBottom" startOffset="50%" text-anchor="middle">ESTRATÉGICO</textPath></text>
+      </g>
+    </symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></symbol>
+  </defs>
+</svg>
+
+<header class="site-header" id="topo">
+  <div class="wrap nav">
+    <a class="brand" href="#topo" aria-label="Boreal Marketing Estratégico, início">
+      <svg viewBox="0 0 400 400" aria-hidden="true"><use href="#seal"/></svg>
+      <span class="brand-name">BOREAL<small data-i18n="brand_sub">MARKETING ESTRATÉGICO</small></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#sobre" data-i18n="nav_sobre">Sobre</a></li>
+      <li><a href="#servicos" data-i18n="nav_servicos">Serviços</a></li>
+      <li><a href="#bastidores" data-i18n="nav_bast">Bastidores</a></li>
+      <li><a href="#resultados" data-i18n="nav_res">Resultados</a></li>
+      <li><a href="#contato" data-i18n="nav_contato">Contato</a></li>
+    </ul>
+    <div class="nav-right">
+      <div class="lang" role="group" aria-label="Idioma / Idioma">
+        <button type="button" data-lang="pt" aria-pressed="true" lang="pt-BR" title="Português">PT</button>
+        <button type="button" data-lang="es" aria-pressed="false" lang="es" title="Español">ES</button>
+      </div>
+      <a class="btn btn-primary nav-cta js-wa" href="https://wa.me/5521988693201?text=Ol%C3%A1%20Letycia!%20Vi%20o%20site%20da%20Boreal%20e%20quero%20saber%20mais." target="_blank" rel="noopener" data-i18n="nav_cta">Fale conosco</a>
+    </div>
+  </div>
+</header>
+
+<main id="conteudo">
+
+<!-- HERO -->
+<section class="hero" aria-labelledby="hero-title">
+  <svg class="hero-aurora" viewBox="0 0 1440 700" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+    <defs>
+      <linearGradient id="g-hero" gradientUnits="userSpaceOnUse" x1="0" y1="200" x2="0" y2="700">
+        <stop offset="0" stop-color="#A9C3A8" stop-opacity="0"/>
+        <stop offset=".55" stop-color="#A9C3A8" stop-opacity=".55"/>
+        <stop offset="1" stop-color="#C9D9C4" stop-opacity="0"/>
+      </linearGradient>
+    </defs>
+    <g stroke="url(#g-hero)" stroke-width="1" id="hero-lines"></g>
+  </svg>
+  <div class="wrap hero-grid">
+    <div class="hero-copy reveal">
+      <span class="eyebrow" data-i18n="hero_eyebrow">Marketing digital com estratégia</span>
+      <h1 id="hero-title" data-i18n-html="hero_title">Vamos levar sua marca <em>além?</em></h1>
+      <p class="lead" data-i18n="hero_lead">Estratégia, conteúdo e imagem para empreendedoras que querem que o digital mostre a mesma excelência que entregam no dia a dia. Atendimento humanizado, cada detalhe pensado. Clientes no Brasil e no Chile.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary js-wa" href="https://wa.me/5521988693201?text=Ol%C3%A1%20Letycia!%20Vi%20o%20site%20da%20Boreal%20e%20quero%20saber%20mais." target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#i-wa"/></svg>
+          <span data-i18n="cta_wa">Conversar no WhatsApp</span>
+        </a>
+        <a class="btn btn-ghost" href="#servicos" data-i18n="cta_servicos">Conheça os serviços</a>
+      </div>
+      <ul class="highlights" aria-label="Atalhos">
+        <li><a href="#comece"><span class="hl-ring"><svg viewBox="0 0 60 60" aria-hidden="true"><rect width="60" height="60" fill="url(#pat-b-light)"/></svg></span><span data-i18n="hl_comece">Comece aqui</span></a></li>
+        <li><a href="#servicos"><span class="hl-ring"><svg viewBox="0 0 60 60" aria-hidden="true"><rect width="60" height="60" fill="url(#pat-b-deep)"/></svg></span><span data-i18n="hl_servicos">Serviços</span></a></li>
+        <li><a href="#sobre"><span class="hl-ring"><svg viewBox="0 0 60 60" aria-hidden="true"><rect width="60" height="60" fill="url(#pat-b-sage)"/></svg></span><span data-i18n="hl_sobre">Sobre</span></a></li>
+      </ul>
+    </div>
+    <div class="reveal">
+      <div class="hero-photo">
+        <div class="frame"><img src="assets/fotos/letycia-hero.jpg" width="900" height="1200" alt="Letycia Araújo, fundadora da Boreal, trabalhando no notebook" fetchpriority="high"></div>
+        <svg class="badge" viewBox="0 0 400 400" role="img" aria-label="Selo da Boreal Marketing Estratégico"><use href="#seal"/></svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section class="section sobre" id="sobre" aria-labelledby="sobre-title">
+  <div class="wrap sobre-grid">
+    <div class="portrait reveal">
+      <div class="portrait-frame">
+        <img src="assets/fotos/letycia-sobre.jpg" width="640" height="800" alt="Letycia Araújo, fundadora da Boreal Marketing Estratégico" loading="lazy">
+      </div>
+      <span class="portrait-tag">Brasil · Chile</span>
+    </div>
+    <div class="sobre-copy reveal">
+      <span class="eyebrow" data-i18n="sobre_eyebrow">Sobre a Boreal</span>
+      <h2 id="sobre-title" data-i18n-html="sobre_title">Uma marca bem apresentada <em>abre portas.</em></h2>
+      <p data-i18n="sobre_p1">A Boreal nasceu para quebrar a ideia de que agência é um serviço genérico e impessoal. Somos uma extensão da sua marca: com atendimento humanizado e soluções sob medida, ajudamos mulheres empreendedoras, especialmente da saúde, da estética e do bem-estar, a conquistar o seu espaço no digital.</p>
+      <p data-i18n="sobre_p2">À frente está Letycia Araújo, com uma equipe que acredita que antes de qualquer planejamento ou post perfeito existe gente apaixonada por contar histórias. Assim como a aurora boreal ilumina o céu, queremos iluminar o caminho do seu negócio.</p>
+      <div class="flags">
+        <span class="chip"><i></i><span data-i18n="chip_br">Clientes no Brasil</span></span>
+        <span class="chip"><i></i><span data-i18n="chip_cl">Clientes no Chile</span></span>
+        <span class="chip"><i></i><span data-i18n="chip_emp">Para empreendedoras</span></span>
+      </div>
+      <div class="signature">
+        <div>
+          <div class="name">Letycia Araújo</div>
+          <a href="https://www.instagram.com/eu.letyciaaraujo/" target="_blank" rel="noopener">@eu.letyciaaraujo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section class="section" id="servicos" aria-labelledby="servicos-title">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow" data-i18n="serv_eyebrow">Serviços</span>
+      <h2 id="servicos-title" data-i18n-html="serv_title">Como a Boreal cuida <em>da sua marca</em></h2>
+      <p class="lead" data-i18n="serv_lead">Quatro frentes que trabalham juntas para que sua marca seja vista, entendida e lembrada.</p>
+    </div>
+    <div class="services">
+      <article class="service reveal">
+        <span class="num">01</span>
+        <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2"/></svg></div>
+        <h3 data-i18n="s1_t">Estratégia e posicionamento</h3>
+        <p data-i18n="s1_d">Deixamos claro o que torna você única, o valor que você entrega e por que ninguém faz igual. Cada ação nasce com um porquê.</p>
+      </article>
+      <article class="service reveal">
+        <span class="num">02</span>
+        <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2.5"/><circle cx="12" cy="13.5" r="3.6"/><path d="M8.5 7l1.4-2.5h4.2L15.5 7"/></svg></div>
+        <h3 data-i18n="s2_t">Ensaios e consultoria de imagem</h3>
+        <p data-i18n="s2_d">Antes do primeiro clique, uma análise de posicionamento. Fotos pensadas para comunicar a qualidade e o nível do seu atendimento.</p>
+      </article>
+      <article class="service reveal">
+        <span class="num">03</span>
+        <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg></div>
+        <h3 data-i18n="s3_t">Produção de conteúdo</h3>
+        <p data-i18n="s3_d">Roteiros, gravações, locações, carrosséis e textos com a voz da sua marca: conteúdo humano que conecta e convida para a ação.</p>
+      </article>
+      <article class="service reveal">
+        <span class="num">04</span>
+        <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".6"/></svg></div>
+        <h3 data-i18n="s4_t">Gestão de redes e tráfego</h3>
+        <p data-i18n="s4_d">Presença constante e organizada no seu perfil e anúncios na hora certa, quando a casa está pronta para converter.</p>
+      </article>
+    </div>
+    <p class="services-note reveal" data-i18n="serv_note">Cada projeto é sob medida. Conte o que você precisa e montamos juntas o caminho ideal.</p>
+  </div>
+</section>
+
+<!-- MANIFESTO -->
+<section class="band" aria-label="Manifesto">
+  <svg class="band-pattern" width="100%" height="100%" aria-hidden="true"><rect width="100%" height="100%" fill="url(#pat-b-line)"/></svg>
+  <div class="wrap reveal">
+    <span class="eyebrow" data-i18n="band_eyebrow">Nosso jeito de fazer</span>
+    <blockquote data-i18n-html="band_quote">Você já tem a excelência no consultório. <em>Agora, vamos levar essa excelência para o digital.</em></blockquote>
+  </div>
+</section>
+
+<!-- DIFERENCIAIS -->
+<section class="section" id="diferenciais" aria-labelledby="dif-title">
+  <div class="wrap pillars-wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow" data-i18n="dif_eyebrow">Diferenciais</span>
+      <h2 id="dif-title" data-i18n-html="dif_title">O cuidado está <em>nos detalhes</em></h2>
+      <p class="lead" data-i18n="dif_lead">A sua marca é a primeira impressão do seu negócio. Tratamos cada entrega como se fosse a nossa.</p>
+    </div>
+    <div class="pillars">
+      <div class="pillar reveal">
+        <span class="roman">I</span>
+        <h3 data-i18n="d1_t">Excelência em qualidade</h3>
+        <p data-i18n="d1_d">Cada entrega passa por um olhar criterioso antes de chegar até você. Qualidade não é um extra: é o padrão.</p>
+      </div>
+      <div class="pillar reveal">
+        <span class="roman">II</span>
+        <h3 data-i18n="d2_t">Atenção aos detalhes</h3>
+        <p data-i18n="d2_d">Cores, palavras, alinhamentos, ritmo de publicação. São os pequenos detalhes que fazem uma marca parecer grande.</p>
+      </div>
+      <div class="pillar reveal">
+        <span class="roman">III</span>
+        <h3 data-i18n="d3_t">Apresentação impecável da sua marca</h3>
+        <p data-i18n="d3_d">Cuidamos para que a sua marca seja apresentada com elegância e clareza, transmitindo o valor real do que você faz.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BASTIDORES -->
+<section class="section bastidores" id="bastidores" aria-labelledby="bast-title">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow" data-i18n="bast_eyebrow">Bastidores</span>
+      <h2 id="bast-title" data-i18n-html="bast_title">Cada clique <em>pensado</em></h2>
+      <p class="lead" data-i18n="bast_lead">No digital, a primeira impressão acontece em segundos. Por isso cada ensaio começa com estratégia e termina com imagens que trabalham 24h pela sua marca.</p>
+    </div>
+    <div class="gallery">
+      <figure class="reveal"><img src="assets/fotos/ensaio-clinica.jpg" width="800" height="1000" alt="Bastidores de um ensaio em clínica, com a profissional atendendo e a fotógrafa registrando" loading="lazy"><figcaption data-i18n="g1">Ensaio no consultório: o atendimento real como protagonista</figcaption></figure>
+      <figure class="reveal"><img src="assets/fotos/ensaio-raquel.jpg" width="800" height="1000" alt="Retrato profissional de nutricionista em estúdio" loading="lazy"><figcaption data-i18n="g2">Nutri Raquel Thomaz: confiança e verdade em cada foto</figcaption></figure>
+      <figure class="reveal"><img src="assets/fotos/ensaio-renata.jpg" width="720" height="900" alt="Bastidores de ensaio em estúdio com iluminação profissional" loading="lazy"><figcaption data-i18n="g3">Renata, advogada: imagem à altura da trajetória</figcaption></figure>
+      <figure class="reveal"><img src="assets/fotos/equipe-elevador.jpg" width="800" height="1000" alt="Equipe da Boreal a caminho de um ensaio, com rebatedor de luz" loading="lazy"><figcaption data-i18n="g4">A caminho de mais uma produção</figcaption></figure>
+      <figure class="reveal"><img src="assets/fotos/equipe-cafe.jpg" width="800" height="1000" alt="Equipe da Boreal celebrando juntas em um café" loading="lazy"><figcaption data-i18n="g5">Gente apaixonada por fazer marcas brilharem</figcaption></figure>
+      <figure class="reveal"><img src="assets/fotos/marca-quadro.jpg" width="800" height="1000" alt="Quadro verde com o selo da Boreal Marketing Estratégico" loading="lazy"><figcaption data-i18n="g6">A natureza nos inspira: a identidade da Boreal</figcaption></figure>
+    </div>
+    <div class="gallery-cta reveal">
+      <a class="btn btn-ghost" href="https://www.instagram.com/agencia.borealmkt/" target="_blank" rel="noopener" data-i18n="bast_cta">Ver mais no Instagram</a>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTADOS -->
+<section class="section" id="resultados" aria-labelledby="res-title">
+  <div class="wrap results-grid">
+    <div class="case-img reveal">
+      <img src="assets/fotos/caso-nutri.jpg" width="800" height="1000" alt="Perfil do Instagram de uma nutricionista depois do reposicionamento feito pela Boreal" loading="lazy">
+    </div>
+    <div class="reveal">
+      <span class="eyebrow" data-i18n="res_eyebrow">Resultados</span>
+      <h2 id="res-title" data-i18n-html="res_title">Mais alcance, mais engajamento. <em>Sem um centavo em anúncios.</em></h2>
+      <p class="lead" data-i18n="res_lead" style="margin-top:18px">Em 30 dias, reposicionamos o Instagram de uma nutricionista. O conteúdo passou a conectar com as pacientes certas.</p>
+      <div class="stats">
+        <div class="stat"><b>+127%</b><span data-i18n="st1">de alcance</span></div>
+        <div class="stat"><b>+1500%</b><span data-i18n="st2">de engajamento</span></div>
+        <div class="stat"><b>17,2 mil</b><span data-i18n="st3">visualizações em 30 dias (antes 5,8 mil)</span></div>
+      </div>
+      <blockquote class="quote">
+        <p data-i18n="q1">Eu gostei muito do que foi feito até agora. O site foi bem construído, as filmagens foram bem elaboradas, tanto que a rede social da Star Care está bem robusta.</p>
+        <footer>Henrique · Star Care</footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- COMECE AQUI -->
+<!-- TODO confirmar com a Letycia: estes 3 passos descrevem um fluxo genérico de primeiro contato -->
+<section class="section comece" id="comece" aria-labelledby="comece-title">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow" data-i18n="com_eyebrow">Comece aqui</span>
+      <h2 id="comece-title" data-i18n-html="com_title">Do primeiro “oi” <em>à sua marca nova</em></h2>
+    </div>
+    <ol class="steps">
+      <li class="step reveal"><h3 data-i18n="p1_t">Mande uma mensagem</h3><p data-i18n="p1_d">Conte um pouco sobre o seu negócio pelo WhatsApp ou pelo direct.</p></li>
+      <li class="step reveal"><h3 data-i18n="p2_t">Conversa sobre a sua marca</h3><p data-i18n="p2_d">Entendemos o seu momento, os seus objetivos e o que precisa ser feito primeiro.</p></li>
+      <li class="step reveal"><h3 data-i18n="p3_t">Proposta sob medida</h3><p data-i18n="p3_d">Você recebe um plano pensado para a sua marca, com clareza sobre cada etapa.</p></li>
+    </ol>
+    <div class="comece-cta reveal">
+      <a class="btn btn-primary js-wa" href="https://wa.me/5521988693201?text=Ol%C3%A1%20Letycia!%20Vi%20o%20site%20da%20Boreal%20e%20quero%20saber%20mais." target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#i-wa"/></svg>
+        <span data-i18n="cta_comece">Quero começar</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section class="section" id="contato" aria-labelledby="contato-title">
+  <div class="wrap contato-grid">
+    <div class="contato-card reveal">
+      <svg class="card-pattern" viewBox="0 0 400 400" aria-hidden="true"><use href="#seal"/></svg>
+      <span class="eyebrow" style="color:var(--mint)" data-i18n="ct_eyebrow">Contato</span>
+      <h2 id="contato-title" data-i18n-html="ct_title">Vamos levar sua marca <em>além?</em></h2>
+      <p data-i18n="ct_p">Conte o que você imagina para a sua marca. A resposta vem com a mesma atenção que você vai encontrar em todo o trabalho.</p>
+      <a class="btn js-wa" href="https://wa.me/5521988693201?text=Ol%C3%A1%20Letycia!%20Vi%20o%20site%20da%20Boreal%20e%20quero%20saber%20mais." target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#i-wa"/></svg>
+        <span data-i18n="cta_wa">Conversar no WhatsApp</span>
+      </a>
+      <div class="socials">
+        <a href="https://www.instagram.com/agencia.borealmkt/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/share/1Horv9pQxH/" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.threads.net/@agencia.borealmkt" target="_blank" rel="noopener">Threads</a>
+      </div>
+    </div>
+    <ul class="contact-list reveal">
+      <li><a class="contact-item js-wa" href="https://wa.me/5521988693201?text=Ol%C3%A1%20Letycia!%20Vi%20o%20site%20da%20Boreal%20e%20quero%20saber%20mais." target="_blank" rel="noopener">
+        <span class="ci"><svg viewBox="0 0 24 24" fill="#4E8A73" aria-hidden="true"><use href="#i-wa"/></svg></span>
+        <span><small>WhatsApp</small><span>+55 21 98869-3201</span></span></a></li>
+      <li><a class="contact-item" href="mailto:gestao.agenciaboreal@gmail.com">
+        <span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="#4E8A73" stroke-width="1.4" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6.5l8.5 6.5 8.5-6.5"/></svg></span>
+        <span><small>E-mail</small><span>gestao.agenciaboreal@gmail.com</span></span></a></li>
+      <li><a class="contact-item" href="https://www.instagram.com/agencia.borealmkt/" target="_blank" rel="noopener">
+        <span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="#4E8A73" stroke-width="1.4" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".7" fill="#4E8A73"/></svg></span>
+        <span><small>Instagram</small><span>@agencia.borealmkt</span></span></a></li>
+      <!-- TODO confirmar dias de atendimento e fuso horário -->
+      <li><div class="contact-item">
+        <span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="#4E8A73" stroke-width="1.4" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+        <span><small data-i18n="ct_horario_l">Horário de atendimento</small><span data-i18n="ct_horario">Das 10h às 19h</span></span></div></li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <svg class="seal-sm" viewBox="0 0 400 400" role="img" aria-label="Boreal Marketing Estratégico"><use href="#seal"/></svg>
+    <p><strong style="font-weight:500;color:var(--green-ink)">Boreal | Marketing Estratégico</strong></p>
+    <p data-i18n="ft_p">Estratégia, design e conteúdo para empreendedoras. Brasil e Chile.</p>
+    <p class="small">© <span id="ano">2026</span> Boreal · <span data-i18n="ft_rights">Todos os direitos reservados</span></p>
+  </div>
+</footer>
+
+<a class="wa-float js-wa" href="https://wa.me/5521988693201?text=Ol%C3%A1%20Letycia!%20Vi%20o%20site%20da%20Boreal%20e%20quero%20saber%20mais." target="_blank" rel="noopener" aria-label="Conversar no WhatsApp" data-i18n-aria="wa_aria">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>
+</a>
+
+<script>
+(function(){
+  var WA = 'https://wa.me/5521988693201?text=';
+  var WA_MSG = {
+    pt: 'Olá Letycia! Vi o site da Boreal e quero saber mais.',
+    es: 'Hola Letycia! Vi el sitio de Boreal y quiero saber más.'
+  };
+  var ES = {
+    skip:'Ir al contenido',
+    brand_sub:'MARKETING ESTRATÉGICO',
+    nav_sobre:'Nosotras', nav_servicos:'Servicios', nav_dif:'Diferenciales', nav_bast:'Detrás de cámaras', nav_res:'Resultados', nav_contato:'Contacto', nav_cta:'Hablemos',
+    hero_eyebrow:'Marketing digital con estrategia',
+    hero_title:'¿Llevamos tu marca <em>más allá?</em>',
+    hero_lead:'Estrategia, contenido e imagen para emprendedoras que quieren que lo digital muestre la misma excelencia que entregan día a día. Atención cercana, cada detalle pensado. Clientas en Brasil y en Chile.',
+    cta_wa:'Conversar por WhatsApp', cta_servicos:'Conoce los servicios',
+    hl_comece:'Empieza aquí', hl_servicos:'Servicios', hl_sobre:'Nosotras',
+    sobre_eyebrow:'Sobre Boreal',
+    sobre_title:'Una marca bien presentada <em>abre puertas.</em>',
+    sobre_p1:'Boreal nació para romper la idea de que una agencia es un servicio genérico e impersonal. Somos una extensión de tu marca: con atención cercana y soluciones a la medida, ayudamos a mujeres emprendedoras, sobre todo de la salud, la estética y el bienestar, a conquistar su espacio en lo digital.',
+    sobre_p2:'Al frente está Letycia Araújo, con un equipo que cree que antes de cualquier planificación o publicación perfecta hay personas apasionadas por contar historias. Así como la aurora boreal ilumina el cielo, queremos iluminar el camino de tu negocio.',
+    chip_br:'Clientas en Brasil', chip_cl:'Clientas en Chile', chip_emp:'Para emprendedoras',
+    serv_eyebrow:'Servicios',
+    serv_title:'Cómo Boreal cuida <em>tu marca</em>',
+    serv_lead:'Cuatro frentes que trabajan juntos para que tu marca sea vista, entendida y recordada.',
+    s1_t:'Estrategia y posicionamiento', s1_d:'Dejamos claro lo que te hace única, el valor que entregas y por qué nadie lo hace igual. Cada acción nace con un porqué.',
+    s2_t:'Sesiones y asesoría de imagen', s2_d:'Antes del primer clic, un análisis de posicionamiento. Fotos pensadas para comunicar la calidad y el nivel de tu atención.',
+    s3_t:'Producción de contenido', s3_d:'Guiones, grabaciones, locaciones, carruseles y textos con la voz de tu marca: contenido humano que conecta e invita a la acción.',
+    s4_t:'Gestión de redes y anuncios', s4_d:'Presencia constante y ordenada en tu perfil, y anuncios en el momento justo, cuando la casa está lista para convertir.',
+    serv_note:'Cada proyecto es a la medida. Cuéntanos qué necesitas y armamos juntas el camino ideal.',
+    band_eyebrow:'Nuestra forma de hacer',
+    band_quote:'Ya tienes la excelencia en la consulta. <em>Ahora llevemos esa excelencia a lo digital.</em>',
+    bast_eyebrow:'Detrás de cámaras',
+    bast_title:'Cada clic <em>pensado</em>',
+    bast_lead:'En lo digital, la primera impresión ocurre en segundos. Por eso cada sesión parte con estrategia y termina con imágenes que trabajan 24 horas por tu marca.',
+    g1:'Sesión en la consulta: la atención real como protagonista',
+    g2:'Nutri Raquel Thomaz: confianza y verdad en cada foto',
+    g3:'Renata, abogada: una imagen a la altura de su trayectoria',
+    g4:'Camino a una nueva producción',
+    g5:'Personas apasionadas por hacer brillar marcas',
+    g6:'La naturaleza nos inspira: la identidad de Boreal',
+    bast_cta:'Ver más en Instagram',
+    res_eyebrow:'Resultados',
+    res_title:'Más alcance, más interacción. <em>Sin un peso en anuncios.</em>',
+    res_lead:'En 30 días reposicionamos el Instagram de una nutricionista. El contenido empezó a conectar con las pacientes correctas.',
+    st1:'de alcance', st2:'de interacción', st3:'visualizaciones en 30 días (antes 5,8 mil)',
+    dif_eyebrow:'Diferenciales',
+    dif_title:'El cuidado está <em>en los detalles</em>',
+    dif_lead:'Tu marca es la primera impresión de tu negocio. Tratamos cada entrega como si fuera nuestra.',
+    d1_t:'Excelencia en calidad', d1_d:'Cada entrega pasa por una mirada rigurosa antes de llegar a ti. La calidad no es un extra: es el estándar.',
+    d2_t:'Atención a los detalles', d2_d:'Colores, palabras, alineaciones, ritmo de publicación. Son los pequeños detalles los que hacen que una marca se vea grande.',
+    d3_t:'Presentación impecable de tu marca', d3_d:'Cuidamos que tu marca se presente con elegancia y claridad, transmitiendo el valor real de lo que haces.',
+    com_eyebrow:'Empieza aquí',
+    com_title:'Del primer “hola” <em>a tu nueva marca</em>',
+    p1_t:'Envía un mensaje', p1_d:'Cuéntanos un poco sobre tu negocio por WhatsApp o por mensaje directo.',
+    p2_t:'Conversamos sobre tu marca', p2_d:'Entendemos tu momento, tus objetivos y lo que hay que hacer primero.',
+    p3_t:'Propuesta a la medida', p3_d:'Recibes un plan pensado para tu marca, con claridad sobre cada etapa.',
+    cta_comece:'Quiero empezar',
+    ct_eyebrow:'Contacto',
+    ct_title:'¿Llevamos tu marca <em>más allá?</em>',
+    ct_p:'Cuéntanos lo que imaginas para tu marca. La respuesta llega con la misma atención que vas a encontrar en todo el trabajo.',
+    ct_horario_l:'Horario de atención', ct_horario:'De 10:00 a 19:00',
+    ft_p:'Estrategia, diseño y contenido para emprendedoras. Brasil y Chile.',
+    ft_rights:'Todos los derechos reservados',
+    wa_aria:'Conversar por WhatsApp'
+  };
+  var META = {
+    pt:{title:document.title, desc:document.querySelector('meta[name=description]').content},
+    es:{title:'Boreal | Marketing Estratégico · Estrategia, diseño y contenido para emprendedoras',
+        desc:'Boreal | Marketing Estratégico: estrategia, diseño y contenido para emprendedoras, con excelencia y atención a los detalles. Clientas en Brasil y Chile. Escríbenos por WhatsApp.'}
+  };
+  var PT = {};
+  document.querySelectorAll('[data-i18n]').forEach(function(el){PT[el.dataset.i18n]=el.textContent;});
+  document.querySelectorAll('[data-i18n-html]').forEach(function(el){PT[el.dataset.i18nHtml]=el.innerHTML;});
+  document.querySelectorAll('[data-i18n-aria]').forEach(function(el){PT[el.dataset.i18nAria]=el.getAttribute('aria-label');});
+
+  function setLang(lang){
+    var d = lang==='es' ? ES : PT;
+    document.querySelectorAll('[data-i18n]').forEach(function(el){var v=d[el.dataset.i18n]; if(v!=null) el.textContent=v;});
+    document.querySelectorAll('[data-i18n-html]').forEach(function(el){var v=d[el.dataset.i18nHtml]; if(v!=null) el.innerHTML=v;});
+    document.querySelectorAll('[data-i18n-aria]').forEach(function(el){var v=d[el.dataset.i18nAria]; if(v!=null) el.setAttribute('aria-label',v);});
+    document.querySelectorAll('.js-wa').forEach(function(a){a.href = WA + encodeURIComponent(WA_MSG[lang]);});
+    document.documentElement.lang = lang==='es' ? 'es' : 'pt-BR';
+    document.title = META[lang].title;
+    document.querySelector('meta[name=description]').content = META[lang].desc;
+    document.querySelectorAll('.lang button').forEach(function(b){b.setAttribute('aria-pressed', String(b.dataset.lang===lang));});
+    try{localStorage.setItem('boreal-lang',lang);}catch(e){}
+  }
+  document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener('click',function(){setLang(b.dataset.lang);});});
+  var initial = 'pt';
+  try{
+    var q = new URLSearchParams(location.search).get('lang');
+    if(q==='es'||q==='pt') initial=q; else { var s=localStorage.getItem('boreal-lang'); if(s==='es'||s==='pt') initial=s; }
+  }catch(e){}
+  if(initial!=='pt') setLang(initial);
+
+  // linhas de aurora no hero
+  var g = document.getElementById('hero-lines');
+  if(g){
+    var out='', n=96;
+    for(var i=0;i<n;i++){
+      var x = 20 + i*(1400/(n-1));
+      var t = (i/(n-1))*Math.PI*2.2;
+      var h = 140 + 120*Math.sin(t*1.3+0.6) + 90*Math.sin(t*3.1) + (i%3===0?40:0);
+      if(h<60) h=60;
+      out += '<line x1="'+x.toFixed(1)+'" x2="'+x.toFixed(1)+'" y1="'+(620-h-120).toFixed(1)+'" y2="700"/>';
+    }
+    g.innerHTML = out;
+  }
+
+  // header com borda ao rolar
+  var hdr = document.querySelector('.site-header');
+  var onScroll = function(){ hdr.classList.toggle('scrolled', window.scrollY>8); };
+  window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+
+  // revelar ao rolar
+  var els = document.querySelectorAll('.reveal');
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{rootMargin:'0px 0px -8% 0px'});
+    els.forEach(function(el){io.observe(el);});
+  } else { els.forEach(function(el){el.classList.add('in');}); }
+
+  var ano = document.getElementById('ano'); if(ano) ano.textContent = new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
